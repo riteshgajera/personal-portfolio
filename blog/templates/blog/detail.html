@@ -1,0 +1,12 @@
+{% extends "blog/base.html" %}
+
+{% block title %}
+    Detail Page
+{% endblock %}
+
+{% block body %}
+    <div>
+            <h3>{{ blog.title }}</h3> <span>{{ blog.date | date:'F jS Y' }}</span>
+            <p>{{ blog.description | safe }}</p>
+    </div>
+{% endblock %}
