@@ -12,7 +12,7 @@ This is a simple web application which allows you to show your projects, blog an
 ## How to install dependencies
 
 ```bash
-$ pip install -r requirement.txt
+$ pip install -r requirements.txt
 ```
 
 ## Deployment
